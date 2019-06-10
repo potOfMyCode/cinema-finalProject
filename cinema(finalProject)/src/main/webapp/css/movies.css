@@ -1,0 +1,186 @@
+body {
+    background: url(../picture/backgrounds/background.jpg) fixed;
+    background-size: 100%;
+}
+
+section.pricing {
+
+}
+
+.pricing .card {
+    border: none;
+    border-radius: 1rem;
+    box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+}
+
+.pricing hr {
+    margin: 1.5rem 0;
+}
+
+.pricing .card-title {
+    margin: 0.5rem 0;
+    font-size: 0.9rem;
+    letter-spacing: .1rem;
+    font-weight: bold;
+}
+
+.pricing .card-price {
+    font-size: 3rem;
+    margin: 0;
+}
+
+.pricing .card-price .period {
+    font-size: 0.8rem;
+}
+
+.pricing ul li {
+    margin-bottom: 1rem;
+}
+
+.pricing .text-muted {
+    opacity: 0.7;
+}
+
+.pricing .btn {
+    /*font-size: 80%;*/
+    /*border-radius: 5rem;*/
+    /*letter-spacing: .1rem;*/
+    /*font-weight: bold;*/
+    /*padding: 1rem;*/
+    /*opacity: 0.7;*/
+
+}
+
+/* Hover Effects on Card */
+
+@media (min-width: 992px) {
+    .pricing .card:hover {
+        margin-top: -.25rem;
+        margin-bottom: .25rem;
+        box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.3);
+    }
+    .pricing .card:hover .btn {
+        /*opacity: 1;*/
+    }
+}
+
+body {
+    background: url(../pic/bg/login_bg.jpg) fixed;
+    background-size: 100%;
+}
+
+.inner-bg{
+    padding: 3rem 1.25rem !important;
+}
+
+.card-bg-color{
+    /*background-color: rgba(255, 255, 255, 0.8) !important;*/
+    border: none;
+    /*border-radius: 1rem;*/
+    /*box-shadow: 0 0.5rem 18px 3px rgba(0, 0, 0, 0.6);*/
+}
+
+.wrap-cont{
+    margin-left: 10rem;
+    margin-right: 10rem;
+}
+
+.my-swiper{
+    z-index: 2;
+}
+
+.own-bullets{
+    width: 100%;
+
+}
+
+.inner-showtimes{
+    margin: 8px 8px 14px;
+    max-height: 202px;
+}
+
+.inner-showtimes .btn{
+    margin: 4px;
+}
+
+.inner-pic{
+    width: inherit;
+    padding-right: 8px;
+    padding-left: 8px;
+    padding-top: 8px;
+}
+
+.own-swiper-slide{
+    flex-direction: column;
+    border-radius: 10px;
+    justify-content: flex-start !important;
+
+}
+
+.time-label{
+    max-width: fit-content;
+    display: inline-block;
+    margin: 4px;
+    padding: 4px 8px;
+    font-size: 0.875rem;
+    border: 1px solid #343a40;
+    border-radius: 0.2rem;
+}
+
+.nm-form{
+    padding: 0 20px 0;
+}
+
+.nm-head{
+    margin: 10px 10px 0;
+}
+
+.nm-btn{
+    /*margin: 50px 0 0 0 !important;*/
+}
+
+.delete-btn{
+    min-width: 75px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.delete-btn button{
+    border:1px solid rgba(255, 0, 0, 0);
+    border-radius: 50%;
+    padding: 0;
+    position: fixed;
+    top: 14px;
+    right: 14px;
+}
+
+.sure-span{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    width: 360px;
+    left: 39%;
+    top: 36%;
+    background-color: rgb(255, 255, 255) !important;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0.5rem 18px 3px rgba(0, 0, 0, 0.6);
+    z-index: 1000;
+}
+
+.order-top{
+    margin: 10px;
+    text-align: center;
+}
+
+.order-bottom{
+    margin: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.container-in{
+    width: inherit;
+}​
+
+
